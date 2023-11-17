@@ -1,0 +1,17 @@
+.header{
+	background-color: #5B3E29;
+	color: #F5EAD7;
+}
+	
+.header a{
+	color: #F5EAD7;
+}
+
+.header a:hover{
+	color: #F5EAD7;
+}
+
+.search{
+	background-color: #F5EAD7;
+	color: #5B3E29;
+}

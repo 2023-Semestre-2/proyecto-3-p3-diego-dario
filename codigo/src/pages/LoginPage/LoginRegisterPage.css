@@ -1,0 +1,68 @@
+/* src/components/LoginRegisterPage.css */
+.login-register-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  background-color: #f4ede8; /* Color de fondo representando el cuero de una agenda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Color de fondo representando hojas de papel */
+  padding: 20px;
+}
+
+.user-icon img {
+  max-width: 225px;
+  max-height: 225px;
+}
+
+label {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+}
+
+button.login-button {
+  width: 79%;
+  padding: 10px;
+  background-color: #4d2e20; /* Color café rojizo oscuro */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  cursor: pointer;
+}
+
+button.login-button:hover {
+  background-color: #3a2418; /* Cambia el color del botón al pasar el ratón sobre él */
+}
+
+.forgot-password,
+.register-link {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Color del enlace */
+}
